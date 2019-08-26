@@ -1,0 +1,18 @@
+includes:
+    - services.neon
+
+parameters:
+	rootDir: %appDir%/..
+
+application:
+	errorPresenter: Error
+	mapping:
+		*: App\*Module\Presenters\*Presenter
+
+session:
+	expiration: 14 days
+
+services:
+	- Baraja\PackageManager\PackageRegistrator
+	router: App\Router\RouterFactory::createRouter
+

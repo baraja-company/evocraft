@@ -1,0 +1,16 @@
+.idea/*
+.vscode/*
+log/*
+temp/*
+!.gitignore
+!.htaccess
+!web.config
+app/config/local.neon
+app/config/package.neon
+node_modules/*
+.DS_Store
+.DS_*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env

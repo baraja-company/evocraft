@@ -1,0 +1,224 @@
+body {
+	background: #4b5656;
+	font-family: Arial;
+}
+
+.headbanner {
+	width: 1000px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+
+}
+
+.menulista {
+	width: 1000px;
+	height: 37px;
+	background-color: #FFF;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.menu_button {
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	height: 30px;
+	padding: 6px 20px 1px 20px;
+	top: 8px;
+	border-right: 5px solid #4b5656;
+	float: left;
+}
+
+.menu_button a {
+	text-decoration: none;
+	color: #444;
+}
+
+.menu_button:hover {
+	background: #d4ebf9;
+	cursor: pointer;
+}
+
+.telo1 {
+	width: 1000px;
+	height: 30px;
+	background-color: #FFF;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.telo2 {
+	width: 1000px;
+	height: 260px;
+	background-color: #a59960;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.telo3 {
+	width: 1000px;
+	height: 200px;
+	background-color: #c2bfae;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.telo4 {
+	width: 1000px;
+	height: 40px;
+	background-color: #FFF;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.telo {
+	width: 1000px;
+	height: 295px;
+	background-color: #FFF;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.teloI1 {
+	width: 1000px;
+	height: 60px;
+	background-color: #a59960;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.teloI2 {
+	width: 1000px;
+	height: 350px;
+	background-color: #FFF;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.teloI3 {
+	width: 1000px;
+	height: 500px;
+	background-color: #FFF;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ikona1 {
+	width: 177px;
+	height: 216px;
+	float: left;
+	margin-left: 73px;
+	margin-right: 73px;
+	margin-top: 31px;
+}
+
+.ikona2 {
+	width: 177px;
+	height: 216px;
+	float: left;
+	margin-left: 73px;
+	margin-right: 73px;
+	margin-top: 31px;
+}
+
+.ikona3 {
+	width: 177px;
+	height: 216px;
+	float: left;
+	margin-left: 73px;
+	margin-right: 73px;
+	margin-top: 31px;
+}
+
+.ikonaI1 {
+	width: 320px;
+	height: 46px;
+	float: left;
+	margin-left: 23px;
+	margin-right: 73px;
+	margin-top: 7px;
+}
+
+.ikonaM1 {
+	width: 196px;
+	height: 46px;
+	float: left;
+	margin-left: 23px;
+	margin-right: 73px;
+	margin-top: 7px;
+}
+
+.ikonaM2 {
+	width: 171px;
+	height: 46px;
+	float: left;
+	margin-left: 23px;
+	margin-right: 73px;
+	margin-top: 7px;
+}
+
+.ikonaM3 {
+	width: 234px;
+	height: 46px;
+	float: left;
+	margin-left: 23px;
+	margin-right: 73px;
+	margin-top: 7px;
+}
+
+.ikonaM4 {
+	width: 191px;
+	height: 46px;
+	float: left;
+	margin-left: 23px;
+	margin-right: 73px;
+	margin-top: 7px;
+}
+
+.ikonaM5 {
+	width: 187px;
+	height: 46px;
+	float: left;
+	margin-left: 23px;
+	margin-right: 73px;
+	margin-top: 7px;
+}
+
+.odkaz1 {
+	width: 177px;
+	height: 200px;
+	float: left;
+	margin-left: 53px;
+	margin-right: 53px;
+	margin-top: 95px;
+}
+
+.odkaz1:hover {
+	background-color: #FFF;
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.alertmenu {
+	width: 800px;
+	height: 200px;
+	background-color: #84c0c9;
+	margin-left: auto;
+	margin-right: auto;
+	border-left: 5px solid #FFF;
+	border-right: 5px solid #FFF;
+}
+
+.alerttext {
+	width: 560px;
+	height: 180px;
+	margin-top: 40px;
+	margin-left: 65px;
+	float: left;
+	color: #FFF;
+	text-align: justify;
+}
