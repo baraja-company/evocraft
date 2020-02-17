@@ -6,6 +6,7 @@ namespace App\Router;
 
 
 use Nette\Application\Routers\RouteList;
+use Nette\Routing\Router;
 use Nette\StaticClass;
 
 final class RouterFactory
@@ -32,6 +33,10 @@ final class RouterFactory
 	{
 		$router = new RouteList('Front');
 
+		$router->addRoute('index.html', 'Homepage:default', Router::ONE_WAY);
+		$router->addRoute('Info.html', 'Homepage:info', Router::ONE_WAY);
+		$router->addRoute('Modlist.html', 'Homepage:modlist', Router::ONE_WAY);
+		$router->addRoute('Instalace.html', 'Homepage:install', Router::ONE_WAY);
 		$router->addRoute('informace', 'Homepage:info');
 		$router->addRoute('instalace', 'Homepage:install');
 		$router->addRoute('prehled-modu', 'Homepage:modlist');

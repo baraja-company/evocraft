@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="cs">
 <head>
 	<meta charset="utf-8">
 
@@ -11,20 +11,30 @@
 </head>
 
 <body>
-<div class="headbanner" style="background-image: url({$basePath}/images/headbanner.jpg);"></div>
+<a n:href=":Front:Homepage:default">
+	<div class="headbanner" style="background-image: url({$basePath}/images/headbanner.jpg);"></div>
+</a>
 <div class="menulista">
-	<div style="left: 49px;" class="menu_button">
-		<a n:href="Homepage:install">INSTALACE</a>
-	</div>
-	<div style="left: 142px;" class="menu_button">
-		<a n:href="Homepage:modlist">MOD LIST</a>
-	</div>
-	<div style="left: 235px;" class="menu_button">
-		<a n:href="Homepage:info">INFO</a>
-	</div>
-	<div style="left: 328px;" class="menu_button">
-		<a n:href="Homepage:default">DOMŮ</a>
-	</div>
+	<a n:href=":Front:Homepage:default">
+		<div style="left: 328px;" class="menu_button">
+			DOMŮ
+		</div>
+	</a>
+	<a n:href=":Front:Homepage:install">
+		<div style="left: 49px;" class="menu_button">
+				INSTALACE
+		</div>
+	</a>
+	<a n:href=":Front:Homepage:modlist">
+		<div style="left: 142px;" class="menu_button">
+			MOD&nbsp;LIST
+		</div>
+	</a>
+	<a n:href=":Front:Homepage:info">
+		<div style="left: 235px;" class="menu_button">
+			INFO
+		</div>
+	</a>
 </div>
 <div n:foreach="$flashes as $flash" n:class="flash, $flash->type">
 	{$flash->message}
@@ -32,6 +42,9 @@
 <div class="telo1"></div>
 {include content}
 <div class="telo4"></div>
+<div class="footer">
+	Web provozuje <a href="https://baraja.cz">Jan Barášek</a>.
+	©&nbsp;2009-{date('Y')}
+</div>
 </body>
-
 </html>

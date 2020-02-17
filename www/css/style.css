@@ -3,6 +3,16 @@ body {
 	font-family: Arial;
 }
 
+.footer {
+	text-align: center;
+	color: white;
+	margin: 1em;
+}
+
+.footer a {
+	color: white;
+}
+
 .headbanner {
 	width: 1000px;
 	height: 200px;
@@ -30,9 +40,6 @@ body {
 	top: 8px;
 	border-right: 5px solid #4b5656;
 	float: left;
-}
-
-.menu_button a {
 	text-decoration: none;
 	color: #444;
 }
